@@ -12,9 +12,11 @@
   - Framework: Springboot 3v
   - Language: Kotlin 1.9
   - Database: PostgreSQL, Redis
-  - Messaging: Kafka
+  - Messaging: Kafka, RabbitMQ
   - OS: Linux
-  - ORM : JPA, QueryDSL
+  - ORM : JPA
+  - Tool: QueryDSL
+  - Front: Thymeleaf, Javascript
 
 ## 프로젝트 아키텍처
 #### SOLID 원칙을 적용한 프로젝트 설계로 유지보수와 확장성, 가독성을 높은 아키텍처를 설계를 위해 아래와 같이 구조를 작성하였습니다.
