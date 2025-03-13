@@ -8,10 +8,13 @@
 작성하지 않아 발생하는 원인들이 있었습니다. 이를 시스템화하여 문제를 해결해보고자 합니다.
 
 ## 기술 스택
+#### Render를 사용하여 배포
   - Framework: Springboot 3v
   - Language: Kotlin 1.9
   - Database: PostgreSQL, Redis
   - Messaging: Kafka
+  - OS: Linux
+  - ORM : JPA, QueryDSL
 
 ## 프로젝트 아키텍처
 #### SOLID 원칙을 적용한 프로젝트 설계로 유지보수와 확장성, 가독성을 높은 아키텍처를 설계를 위해 아래와 같이 구조를 작성하였습니다.
